@@ -86,9 +86,14 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
   while (1)
     {
-  // Turn on the RED LED and turn off the YELLOW LED
+     // Turn on the RED LED and turn off the YELLOW LED
   	  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 0);
   	  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, GPIO_PIN_SET);
   // Delay for 2 seconds
@@ -98,33 +103,9 @@ int main(void)
   	  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, GPIO_PIN_RESET);
   // Delay for 2 seconds
   	  HAL_Delay(2000);
-      /* USER CODE END WHILE */
-
-      /* USER CODE BEGIN 3 */
-    }
-  /* USER CODE END 2 */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-    {
-
-
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    }
-  /* USER CODE END 2 */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-    {
-
-
-      /* USER CODE END WHILE */
-
-      /* USER CODE BEGIN 3 */
     }
   /* USER CODE END 3 */
 }
