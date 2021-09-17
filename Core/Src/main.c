@@ -94,7 +94,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
     {
-	  // Col 1 =
+	  // Col 1 = 1000111
 	  HAL_GPIO_WritePin(COL_1_GPIO_Port, COL_1_Pin, 1);
 
 	  HAL_GPIO_WritePin(ROW_1_GPIO_Port, ROW_1_Pin, 1);
@@ -103,7 +103,7 @@ int main(void)
 	  HAL_GPIO_WritePin(ROW_7_GPIO_Port, ROW_7_Pin, 1);
 
 	  HAL_Delay(time_consume);
-	  // Col 2 = 0111110
+	  // Col 2 = 0111011
 	  HAL_GPIO_WritePin(COL_1_GPIO_Port, COL_1_Pin, 0);
 	  HAL_GPIO_WritePin(COL_2_GPIO_Port, COL_2_Pin, 1);
 
@@ -116,17 +116,17 @@ int main(void)
 	  HAL_GPIO_WritePin(ROW_6_GPIO_Port, ROW_6_Pin, 1);
 
 	  HAL_Delay(time_consume);
-	  // Col 3 = 0111110
+	  // Col 3 = 0111011
 	  HAL_GPIO_WritePin(COL_2_GPIO_Port, COL_2_Pin, 0);
 	  HAL_GPIO_WritePin(COL_3_GPIO_Port, COL_3_Pin, 1);
 
 	  HAL_Delay(time_consume);
-	  // Col 4 = 0111110
+	  // Col 4 = 0111011
 	  HAL_GPIO_WritePin(COL_3_GPIO_Port, COL_3_Pin, 0);
 	  HAL_GPIO_WritePin(COL_4_GPIO_Port, COL_4_Pin, 1);
 
 	  HAL_Delay(time_consume);
-	  // Col 5 = 1000001
+	  // Col 5 = 1000111
 	  HAL_GPIO_WritePin(COL_4_GPIO_Port, COL_4_Pin, 0);
 	  HAL_GPIO_WritePin(COL_5_GPIO_Port, COL_5_Pin, 1);
 
