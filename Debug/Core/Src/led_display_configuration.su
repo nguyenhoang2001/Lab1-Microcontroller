@@ -1,0 +1,2 @@
+led_display_configuration.c:8:6:display7SEG1	24	static
+led_display_configuration.c:47:6:display7SEG2	24	static
