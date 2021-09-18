@@ -89,13 +89,20 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_GPIO_WritePin(ROW_6_GPIO_Port, ROW_6_Pin, 1);
   HAL_GPIO_WritePin(ROW_7_GPIO_Port, ROW_7_Pin, 1);
+  int i = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
     {
-	  clearNumberOnClock(10);
+	  int count = 0;
+	  if(i == 12) i = 0;
+	  while(count < 50) {
+		  clearNumberOnClock(i);
+		  count++;
+	  }
+	  i++;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
