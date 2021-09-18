@@ -1,0 +1,4 @@
+12_led_configuration.c:28:6:clearAllClock	8	static
+12_led_configuration.c:45:6:setNumberOnClock	24	static
+12_led_configuration.c:116:6:setUpRow	16	static
+12_led_configuration.c:125:6:clearNumberOnClock	16	static
