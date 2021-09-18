@@ -58,20 +58,32 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LED_LEFT_RED_Pin GPIO_PIN_1
-#define LED_LEFT_RED_GPIO_Port GPIOA
-#define LED_LEFT_YELLOW_Pin GPIO_PIN_2
-#define LED_LEFT_YELLOW_GPIO_Port GPIOA
-#define LED_LEFT_GREEN_Pin GPIO_PIN_3
-#define LED_LEFT_GREEN_GPIO_Port GPIOA
-#define LED_RIGHT_RED_Pin GPIO_PIN_5
-#define LED_RIGHT_RED_GPIO_Port GPIOA
-#define LED_RIGHT_YELLOW_Pin GPIO_PIN_6
-#define LED_RIGHT_YELLOW_GPIO_Port GPIOA
-#define LED_RIGHT_GREEN_Pin GPIO_PIN_7
-#define LED_RIGHT_GREEN_GPIO_Port GPIOA
+#define COL_1_Pin GPIO_PIN_4
+#define COL_1_GPIO_Port GPIOA
+#define COL_2_Pin GPIO_PIN_5
+#define COL_2_GPIO_Port GPIOA
+#define COL_3_Pin GPIO_PIN_6
+#define COL_3_GPIO_Port GPIOA
+#define COL_4_Pin GPIO_PIN_7
+#define COL_4_GPIO_Port GPIOA
+#define COL_5_Pin GPIO_PIN_8
+#define COL_5_GPIO_Port GPIOA
+#define ROW_1_Pin GPIO_PIN_9
+#define ROW_1_GPIO_Port GPIOA
+#define ROW_2_Pin GPIO_PIN_10
+#define ROW_2_GPIO_Port GPIOA
+#define ROW_3_Pin GPIO_PIN_11
+#define ROW_3_GPIO_Port GPIOA
+#define ROW_4_Pin GPIO_PIN_12
+#define ROW_4_GPIO_Port GPIOA
+#define ROW_5_Pin GPIO_PIN_13
+#define ROW_5_GPIO_Port GPIOA
+#define ROW_6_Pin GPIO_PIN_14
+#define ROW_6_GPIO_Port GPIOA
+#define ROW_7_Pin GPIO_PIN_15
+#define ROW_7_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
-
+#define time_consume 1
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
